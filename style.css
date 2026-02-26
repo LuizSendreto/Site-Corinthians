@@ -1,5 +1,8 @@
 body{
-
+    background-image: url(assets/wwwwww.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     background-color: rgb(0, 0, 0);
 }
@@ -28,6 +31,7 @@ nav{
 }
 
 .noticias{
+
     margin: 10px;
     text-align: center;
 border-radius: 30px;
@@ -38,25 +42,25 @@ border-radius: 30px;
 }
 
 .img_noticias{
-    height: 270px;
-    border-radius: 30px;
-    width: 275px;
+    height: 300px;
+    border-radius: 25px;
+    width: 270px;
 }
 
 
 
 
 footer {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .campo{
     position: relative;
-    width: 450px;
+    width: 350px;
     height: 600px;
     margin: 0 auto;
 
@@ -77,7 +81,6 @@ footer {
     left: 50%;
 }
 
-/* ZAGUEIROS */
 .zagueiro1 {
     top: 75%;
     left: 35%;
@@ -88,7 +91,6 @@ footer {
     left: 65%;
 }
 
-/* LATERAIS */
 .lateral1 {
     top: 75%;
     left: 15%;
@@ -99,7 +101,6 @@ footer {
     left: 85%;
 }
 
-/* MEIAS */
 .meia1 {
     top: 50%;
     left: 30%;
@@ -115,7 +116,7 @@ footer {
     left: 70%;
 }
 
-/* ATACANTES */
+
 .atacante1 {
     top: 30%;
     left: 30%;
@@ -132,19 +133,19 @@ footer {
 }
 
 main h1{
-    color: rgb(214, 169, 20);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 #gif1{
     right: 0px;
-    bottom: -140px;
+    bottom: -428px;
     position: absolute;
 }
 
 #gif{
-    left: 0px;
-    bottom: -140px;
+    left: 10px;
+    bottom: -428px;
     position: absolute;
 }
 

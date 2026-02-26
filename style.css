@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        color:black;
+}
+
+#icon{
+    width: 90px;
+    height: 90px;
+}
+
+.noticias{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(143, 2, 2);
+   
+}
+
+.img_noticias{
+    width: 400px;
+}

@@ -19,13 +19,32 @@ nav{
     height: 90px;
 }
 
+#noticias{
+    border-radius: 40px;
+    flex-wrap: wrap;
+    display: flex ;
+    justify-content: space-around;
+}
+
 .noticias{
+    margin: 10px;
+    text-align: center;
+border-radius: 30px;
     background-color: black;
     color: rgb(255, 255, 255);
-    border: 5px solid rgb(143, 2, 2);
+    border: 5px solid rgb(87, 14, 14);
    
 }
 
 .img_noticias{
-    width: 400px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -37,9 +37,13 @@ border-radius: 30px;
 }
 
 .img_noticias{
-    height: 250px;
+    height: 270px;
     border-radius: 30px;
     width: 275px;
+}
+
+.escalacao{
+    color: white;
 }
 
 footer {
@@ -47,5 +51,9 @@ footer {
     padding: 10px;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img_jogadores{
+    height: 100px;
 }

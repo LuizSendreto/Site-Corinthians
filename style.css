@@ -1,4 +1,5 @@
 body{
+
     margin: 0;
     background-color: rgb(0, 0, 0);
 }
@@ -42,9 +43,8 @@ border-radius: 30px;
     width: 275px;
 }
 
-.escalacao{
-    color: white;
-}
+
+
 
 footer {
     color: rgb(0, 0, 0);
@@ -54,6 +54,100 @@ footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.img_jogadores{
-    height: 100px;
+.campo{
+    position: relative;
+    width: 450px;
+    height: 600px;
+    margin: 0 auto;
+
+    background-image: url(assets/campo_de_futebol.png2.webp);
+    background-size: cover;
+    background-position: center;
 }
+
+.icon_jogador {
+    width: 80px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.goleiro {
+    top: 90%;
+    left: 50%;
+}
+
+/* ZAGUEIROS */
+.zagueiro1 {
+    top: 75%;
+    left: 35%;
+}
+
+.zagueiro2 {
+    top: 75%;
+    left: 65%;
+}
+
+/* LATERAIS */
+.lateral1 {
+    top: 75%;
+    left: 15%;
+}
+
+.lateral2 {
+    top: 75%;
+    left: 85%;
+}
+
+/* MEIAS */
+.meia1 {
+    top: 50%;
+    left: 30%;
+}
+
+.meia2 {
+    top: 55%;
+    left: 50%;
+}
+
+.meia3 {
+    top: 50%;
+    left: 70%;
+}
+
+/* ATACANTES */
+.atacante1 {
+    top: 30%;
+    left: 30%;
+}
+
+.atacante2 {
+    top: 15%;
+    left: 50%;
+}
+
+.atacante3 {
+    top: 30%;
+    left: 70%;
+}
+
+main h1{
+    color: rgb(214, 169, 20);
+    text-align: center;
+}
+
+#gif1{
+    right: 0px;
+    bottom: -140px;
+    position: absolute;
+}
+
+#gif{
+    left: 0px;
+    bottom: -140px;
+    position: absolute;
+}
+
+
+
+
